@@ -9,7 +9,8 @@ class CounterGroup extends Component {
     }
 
     initArray(size) {
-        return Array.from(Array(size).keys());
+        const number = size.length > 0 ? parseInt(size) : 0;
+        return Array.from(Array(number).keys());
     }
 
     render() {
