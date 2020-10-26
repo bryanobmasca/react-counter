@@ -20,7 +20,7 @@ class CounterGroup extends Component {
         return (
             <div>
                 {counterSizeArray.map((value) => (
-                    <Counter key={value} />
+                    <Counter key={value} addToSum={this.props.addToSum}/>
                 ))}
             </div>
         );
