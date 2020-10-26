@@ -32,8 +32,8 @@ class MultiCounter extends Component {
             <fieldset>
                 <legend>Multiple Counter</legend>
                 <CounterSizeGenerator onGenerate={this.onGenerate}/>
-                <CounterGroupSum sum={this.state.sum}/>
                 <CounterGroup size={this.state.size} addToSum={this.addToSum}/>
+                <CounterGroupSum sum={this.state.sum}/>
             </fieldset>
         );
     }
