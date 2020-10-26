@@ -1,12 +1,11 @@
 import './App.css';
-import CounterGroup from './components/CounterGroup';
+import MultiCounter from './components/MultiCounter';
 
 function App() {
-  const size = 3;
   return (
     <div className="App">
       <header className="App-header">
-        <CounterGroup size={size} />
+        <MultiCounter />
       </header>
     </div>
   );
